@@ -1,4 +1,4 @@
-import CreateContext from './noteContext';
+import CreateContext from './contextCreate';
 import { useState } from 'react';
 
 const CreateState = (props) => {
@@ -17,9 +17,9 @@ const CreateState = (props) => {
     }, 1000);
   };
   return (
-    <NoteContext.Provider value={{ state: state, update: update }}>
+    <CreateContext.Provider value={{ state: state, update: update }}>
       {props.children}
-    </NoteContext.Provider>
+    </CreateContext.Provider>
   );
 };
 

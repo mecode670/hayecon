@@ -12,7 +12,7 @@ const Header = () => {
         />
       </Head>
       <header className='select-none sticky top-0 flex p-5 justify-between m-2 backdrop-filter backdrop-blur-lg border-1 border-gray-400'>
-        <div className='ml-20 flex cursor-pointer'>
+        <div className='md:ml-20 ml-2 flex cursor-pointer'>
           <Link href='/'>
             <a>
               <Image
@@ -24,11 +24,13 @@ const Header = () => {
             </a>
           </Link>
         </div>
-        <nav className=''>
+        <nav className='flex mr-5 transition duration-300'>
           <div className=''>
             <Link href='/continue'>
               <a>
-                <button className=''>Continue</button>
+                <button className='cursor-pointer bg-white border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-500 hover:bg-paper hover:text-white  '>
+                  Continue
+                </button>
               </a>
             </Link>
           </div>

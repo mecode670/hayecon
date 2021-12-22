@@ -1,11 +1,26 @@
+import CreateContext from './noteContext';
 import { useState } from 'react';
-import ContextCreate from './contextCreate';
 
-export const createState = (props) => {
-  const isShow = 'rrr';
+const CreateState = (props) => {
+  const s1 = {
+    name: 'Harry',
+    class: '5b',
+  };
+  const [state, setState] = useState(s1);
+
+  const update = () => {
+    setTimeout(() => {
+      setState({
+        name: 'Larry',
+        class: '10b',
+      });
+    }, 1000);
+  };
   return (
-    <ContextCreate.Provider value={{ isShow }}>
+    <NoteContext.Provider value={{ state: state, update: update }}>
       {props.children}
-    </ContextCreate.Provider>
+    </NoteContext.Provider>
   );
 };
+
+export default CreateState;

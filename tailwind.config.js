@@ -9,6 +9,7 @@ module.exports = {
         readex: 'Readex Pro',
       },
       colors: {
+        'border-paper': '#ffffff2e',
         paper: '#1D1D1D',
       },
       borderRadius: {

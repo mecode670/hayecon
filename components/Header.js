@@ -12,7 +12,7 @@ const Header = () => {
         />
       </Head>
       <header className='select-none sticky top-0 flex p-5 justify-between m-2 backdrop-filter backdrop-blur-lg border-1 border-gray-400'>
-        <div className={styles.logo}>
+        <div className='ml-20 flex cursor-pointer'>
           <Link href='/'>
             <a>
               <Image

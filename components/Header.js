@@ -24,11 +24,11 @@ const Header = () => {
             </a>
           </Link>
         </div>
-        <nav className={styles.navigation}>
-          <div className={styles.links}>
+        <nav className=''>
+          <div className=''>
             <Link href='/continue'>
               <a>
-                <button className={styles.btn}>Continue</button>
+                <button className=''>Continue</button>
               </a>
             </Link>
           </div>

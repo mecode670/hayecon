@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        montserrat: 'Montserrat',
         readex: 'Readex Pro',
       },
       colors: {

@@ -1,14 +1,21 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
+import Sidebar from './Sidebar';
+import contextCreate from '../context/contextCreate';
 
 const Header = () => {
+  const context = useContext(contextCreate);
+  const { isShow, setIsShow } = context;
   const size = '40px';
   const [windowWidth, setWindowWidth] = useState(null);
   useEffect(() => {
     setWindowWidth(screen.width);
   }, []);
+  const sidebarOnClick = () => {
+    setIsShow(true);
+  };
   return (
     <>
       <Head>
@@ -39,7 +46,10 @@ const Header = () => {
                 </button>
               </a>
             </Link>
-            <button className={windowWidth > 500 ? 'hidden' : 'visible'}>
+            <button
+              onClick={sidebarOnClick}
+              className={windowWidth > 500 ? 'hidden' : 'visible'}
+            >
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='h-6 w-6'

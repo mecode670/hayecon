@@ -16,7 +16,7 @@ const Header = () => {
           <Link href='/'>
             <a>
               <Image
-                src='/icon_dark_vercel.svg'
+                src='/vercel-icon-dark.svg'
                 height={size}
                 width={size}
                 alt='icon'

@@ -13,8 +13,8 @@ const Header = () => {
   useEffect(() => {
     setWindowWidth(screen.width);
   }, []);
-  const sidebarOnClick = () => {
-    setIsShow(true);
+  const onClickf9eh424 = () => {
+    setIsShow(!isShow);
   };
   return (
     <>
@@ -47,7 +47,7 @@ const Header = () => {
               </a>
             </Link>
             <button
-              onClick={sidebarOnClick}
+              onClick={onClickf9eh424}
               className={windowWidth > 500 ? 'hidden' : 'visible'}
             >
               <svg

@@ -2,22 +2,9 @@ import CreateContext from './contextCreate';
 import { useState } from 'react';
 
 const CreateState = (props) => {
-  const s1 = {
-    name: 'Harry',
-    class: '5b',
-  };
-  const [state, setState] = useState(s1);
-
-  const update = () => {
-    setTimeout(() => {
-      setState({
-        name: 'Larry',
-        class: '10b',
-      });
-    }, 1000);
-  };
+  const [isShow, setIsShow] = useState(false);
   return (
-    <CreateContext.Provider value={{ state: state, update: update }}>
+    <CreateContext.Provider value={{ isShow, setIsShow }}>
       {props.children}
     </CreateContext.Provider>
   );

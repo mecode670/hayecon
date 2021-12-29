@@ -38,6 +38,7 @@ const Header = () => {
           </Link>
         </div>
         <nav className='flex mr-5 transition duration-300'>
+          <Sidebar />
           <div className='flex gap-5'>
             <Link href='/continue'>
               <a>
@@ -48,7 +49,9 @@ const Header = () => {
             </Link>
             <button
               onClick={onClickf9eh424}
-              className={windowWidth > 500 ? 'hidden' : 'visible'}
+              className={`${
+                windowWidth > 500 ? 'hidden' : 'visible'
+              } flex mt-4`}
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'

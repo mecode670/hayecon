@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState, useContext } from 'react';
 import Sidebar from './Sidebar';
-import contextCreate from '../context/contextCreate';
+import contextCreate from '../context/contextCreate.js';
 
 const Header = () => {
   const context = useContext(contextCreate);

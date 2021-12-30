@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <html lang='en' />
         <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
       </Head>
       <Header />

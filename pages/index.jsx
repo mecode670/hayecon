@@ -36,16 +36,16 @@ export default function Home() {
           rel='stylesheet'
         />
       </Head>
-      <section className='mt-10 px-4 lg:px-8'>
+      <section className='mt-32 px-4 lg:px-8'>
         <div className='text-center lg:text-left'>
-          <h1 className='text-4xl font-extrabold text-paper '>
+          <h1 className='text-4xl font-extrabold text-paper'>
             <span>Welcome To Paepr </span>
           </h1>
           <p className='mt-6 text-gray-600 max-w-xl'>
             Here you get to see all the blogs free and ad-free. blogs are really
             helpful to some, maybe you need something, checkout our blogs.
           </p>
-          <div className='mt-80 md:mt-8 flex justify-center lg:justify-start'>
+          <div className='mt-60 md:mt-8 flex justify-center lg:justify-start'>
             <div className='rounded-2xl shadow-lg'>
               <Link href='/blogs'>
                 <a className='flex px-10 py-4  text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>

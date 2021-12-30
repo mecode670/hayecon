@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { Switch } from '@headlessui/react';
-const index = () => {
+const Index = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>

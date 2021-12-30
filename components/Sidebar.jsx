@@ -2,7 +2,6 @@ import { useContext } from 'react';
 import contextCreate from '../context/contextCreate';
 import Link from 'next/link';
 import { Transition } from '@headlessui/react';
-
 const Sidebar = (props) => {
   // {`${isShow ? 'visible' : 'hidden'}`}
   const context = useContext(contextCreate);

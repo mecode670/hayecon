@@ -14,7 +14,7 @@ module.exports = {
         paper: '#1D1D1D',
       },
       borderRadius: {
-        paper: '20px',
+        paper: '25px',
       },
     },
   },

@@ -14,7 +14,7 @@ const Sidebar = (props) => {
         } flex fixed w-full items-center justify-between px-6 h-16 text-gray-700 z-30`}
       >
         <aside
-          className={`transform top-60 bg-opacity-30 left-14 w-64 rounded-3xl fixed h-64 overflow-auto ease-in-out transition-all duration-1000 backdrop-filter backdrop-blur-lg bg-gray-400 z-30 ${
+          className={`transform top-60 left-14 w-64 rounded-3xl fixed h-64 overflow-auto bg-white shadow-2xl z-30 ${
             isShow ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
@@ -23,7 +23,7 @@ const Sidebar = (props) => {
               <a>
                 <button
                   itemProp='url'
-                  className='cursor-pointer backdrop-filter backdrop-blur-lg bg-opacity-30 bg-white mt-6 border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-200 hover:bg-paper hover:text-white'
+                  className='cursor-pointer bg-white mt-6 border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-200 hover:bg-paper hover:text-white'
                 >
                   Contact
                 </button>

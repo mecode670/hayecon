@@ -10,6 +10,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <meta
+          name='google-site-verification'
+          content='d4kWYZ5mPSRf1Ta9xi1oLtWDN2AwDcejiPq3Ukjl2vQ'
+        />
         <link
           href='https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap'
           rel='stylesheet'

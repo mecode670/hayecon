@@ -3,10 +3,6 @@ const index = () => {
   return (
     <>
       <Head>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'
-          rel='stylesheet'
-        />
         <meta property='og:url' content='https://paepr.vercel.app/continue' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Continue To Paepr' />

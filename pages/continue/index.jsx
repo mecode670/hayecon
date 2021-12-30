@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { Switch } from '@headlessui/react';
-const Index = () => {
+const Continue = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <>
@@ -124,4 +124,4 @@ const Index = () => {
   );
 };
 
-export default index;
+export default Continue;

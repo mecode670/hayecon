@@ -22,17 +22,17 @@ const index = () => {
               className='hidden lg:block lg:w-1/2 bg-cover'
               style={{
                 backgroundImage:
-                  'url("https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80")',
+                  'url("https://images.unsplash.com/photo-1640839749026-3244dbdc8ca6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60)',
               }}
             />
             <div className='w-full p-8 lg:w-1/2'>
               <h2 className='text-2xl font-semibold text-gray-700 text-center'>
-                Brand
+                Bonjour
               </h2>
               <p className='text-xl text-gray-600 text-center'>Welcome back!</p>
               <a
                 href='#'
-                className='flex items-center justify-center mt-4 text-white rounded-lg shadow-md hover:bg-gray-100'
+                className='flex items-center justify-center mt-4 text-white rounded-2xl shadow-lg hover:bg-gray-100'
               >
                 <div className='px-4 py-3'>
                   <svg className='h-6 w-6' viewBox='0 0 40 40'>
@@ -55,7 +55,7 @@ const index = () => {
                   </svg>
                 </div>
                 <h1 className='px-4 py-3 w-5/6 text-center text-gray-600 font-bold'>
-                  Sign in with Google
+                  Continue with Google
                 </h1>
               </a>
               <div className='mt-4 flex items-center justify-between'>
@@ -64,7 +64,7 @@ const index = () => {
                   href='#'
                   className='text-xs text-center text-gray-500 uppercase'
                 >
-                  or login with email
+                  or Continue with email
                 </a>
                 <span className='border-b w-1/5 lg:w-1/4' />
               </div>
@@ -93,15 +93,8 @@ const index = () => {
               </div>
               <div className='mt-8'>
                 <button className='bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600'>
-                  Login
+                  Continue
                 </button>
-              </div>
-              <div className='mt-4 flex items-center justify-between'>
-                <span className='border-b w-1/5 md:w-1/4' />
-                <a href='#' className='text-xs text-gray-500 uppercase'>
-                  or sign up
-                </a>
-                <span className='border-b w-1/5 md:w-1/4' />
               </div>
             </div>
           </div>

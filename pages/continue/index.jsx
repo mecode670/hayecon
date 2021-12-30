@@ -99,9 +99,7 @@ const Continue = () => {
                 <Switch
                   checked={toggle}
                   onChange={setToggle}
-                  className={`${
-                    toggle ? 'bg-paper' : 'bg-gray-200'
-                  } relative transition duration-500 ease-in-out flex items-center h-6 lg:left-80 left-64 rounded-full z-20 bottom-12 w-11`}
+                  className='relative transition duration-500 ease-in-out flex items-center h-6 lg:left-80 left-64 rounded-full z-20 bottom-12 w-11 bg-paper '
                 >
                   <span className='sr-only'>Show Password</span>
                   <span

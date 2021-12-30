@@ -44,7 +44,7 @@ const Header = () => {
               className={`${
                 windowWidth > 500 ? 'hidden' : 'visible'
               } flex mt-4`}
-              // className={`flex mt-4`}
+              aria-label='Navigation bar full screen'
             >
               <svg
                 xmlns='http://www.w3.org/2000/svg'

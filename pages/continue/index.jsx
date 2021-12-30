@@ -10,7 +10,10 @@ const index = () => {
           property='og:description'
           content='Start Your Paper Now, By Continuing'
         />
-        <meta property='og:image' content='' />
+        <meta
+          property='og:image'
+          content='https://res.cloudinary.com/mecode670/image/upload/v1640865597/paepr/paepr-big_ypaerg.png'
+        />
       </Head>
       <h1 className='font-montserrat'>Login</h1>
     </>

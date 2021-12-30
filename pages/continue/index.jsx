@@ -1,5 +1,8 @@
 import Head from 'next/head';
+import { useState } from 'react';
+import { Switch } from '@headlessui/react';
 const index = () => {
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <Head>
@@ -32,9 +35,9 @@ const index = () => {
               <p className='text-xl text-gray-600 text-center'>Welcome back!</p>
               <a
                 href='#'
-                className='flex items-center justify-center mt-4 text-white rounded-2xl shadow-lg hover:bg-gray-100'
+                className='flex items-center justify-center mt-4 hover:text-paper text-white transition duration-500 ease-in-out hover:bg-white rounded-2xl shadow-lg bg-paper'
               >
-                <div className='px-4 py-3'>
+                <div className='px-4 py-3 hover:text-paper'>
                   <svg className='h-6 w-6' viewBox='0 0 40 40'>
                     <path
                       d='M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.045 27.2142 24.3525 30 20 30C14.4775 30 10 25.5225 10 20C10 14.4775 14.4775 9.99999 20 9.99999C22.5492 9.99999 24.8683 10.9617 26.6342 12.5325L31.3483 7.81833C28.3717 5.04416 24.39 3.33333 20 3.33333C10.7958 3.33333 3.33335 10.7958 3.33335 20C3.33335 29.2042 10.7958 36.6667 20 36.6667C29.2042 36.6667 36.6667 29.2042 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z'
@@ -54,7 +57,7 @@ const index = () => {
                     />
                   </svg>
                 </div>
-                <h1 className='px-4 py-3 w-5/6 text-center text-gray-600 font-bold'>
+                <h1 className='px-4 py-3 w-5/6 text-center font-bold'>
                   Continue with Google
                 </h1>
               </a>
@@ -73,7 +76,7 @@ const index = () => {
                   Email Address
                 </label>
                 <input
-                  className='bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none'
+                  className='bg-white text-paper focus:outline-none focus:shadow-outline border border-paper rounded-2xl py-2 px-4 block w-full appearance-none'
                   type='email'
                 />
               </div>
@@ -87,12 +90,26 @@ const index = () => {
                   </a>
                 </div>
                 <input
-                  className='bg-gray-200 text-gray-700 focus:outline-none focus:shadow-outline border border-gray-300 rounded py-2 px-4 block w-full appearance-none'
+                  className='bg-white mb-4 text-paper focus:outline-none focus:shadow-outline border border-paper rounded-2xl py-2 px-4 block w-full appearance-none z-10'
                   type='password'
                 />
+                <Switch
+                  checked={toggle}
+                  onChange={setToggle}
+                  className={`${
+                    toggle ? 'bg-paper' : 'bg-gray-200'
+                  } relative flex items-center h-6 left-64 rounded-full z-20 bottom-12 w-11`}
+                >
+                  <span className='sr-only'>Show Password</span>
+                  <span
+                    className={`${
+                      toggle ? 'translate-x-6' : 'translate-x-1'
+                    } inline-block w-4 h-4 transform bg-white rounded-full`}
+                  />
+                </Switch>
               </div>
               <div className='mt-8'>
-                <button className='bg-gray-700 text-white font-bold py-2 px-4 w-full rounded hover:bg-gray-600'>
+                <button className='bg-paper text-white shadow-lg hover:bg-white transition duration-500 ease-in-out  font-bold py-2 px-4 w-full rounded-full hover:text-paper'>
                   Continue
                 </button>
               </div>

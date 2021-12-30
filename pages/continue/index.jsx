@@ -8,6 +8,7 @@ const Continue = () => {
   return (
     <>
       <Head>
+        <title>Continue - Paepr</title>
         <meta property='og:url' content='https://paepr.vercel.app/continue' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Continue To Paepr' />

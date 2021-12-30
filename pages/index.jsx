@@ -6,10 +6,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Paepr - Home</title>
+        <title>Home - Paepr</title>
         <meta
           name='description'
-          itemProp={'description'}
           content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
         />
         <meta property='og:url' content='https://paepr.vercel.app' />

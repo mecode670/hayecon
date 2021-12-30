@@ -10,12 +10,15 @@ export default function Home() {
         <meta
           name='description'
           itemProp={'description'}
-          content='No Paper No Life'
+          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
         />
         <meta property='og:url' content='https://paepr.vercel.app' />
         <meta property='og:type' content='article' />
-        <meta property='og:title' content='Paepr - Home' />
-        <meta property='og:description' content='No Paper No Life' />
+        <meta property='og:title' content='Paepr' />
+        <meta
+          property='og:description'
+          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
+        />
         <meta property='og:image:width' content='1500' />
         <meta property='og:image:height' content='1500' />
 

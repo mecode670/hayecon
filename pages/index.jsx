@@ -28,6 +28,13 @@ export default function Home() {
         />
 
         <link href='favicon.ico' />
+        <meta name='twitter:card' content='summary'></meta>
+        <meta name='twitter:site' content='zacc_X_'></meta>
+        <meta name='twitter:title' content='Paepr'></meta>
+        <meta
+          name='twitter:description'
+          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
+        ></meta>
       </Head>
 
       <section className='text-gray-600 body-font'>

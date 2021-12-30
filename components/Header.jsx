@@ -48,9 +48,9 @@ const Header = () => {
             </Link>
             <button
               onClick={onClickf9eh424}
-              // className={`${
-              //   windowWidth > 500 ? 'hidden' : 'visible'
-              //  } flex mt-4`}
+              className={`${
+                windowWidth > 500 ? 'hidden' : 'visible'
+              } flex mt-4`}
               className={`flex mt-4`}
             >
               <svg

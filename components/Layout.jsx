@@ -10,9 +10,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <html lang='en' />
         <link rel='icon' href='favicon.ico' />
         <link rel='apple-touch-icon' href='/apple_touch_icon.png' />
+        <meta
+          name='description'
+          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
+        />
       </Head>
       <Header />
       <Sidebar />

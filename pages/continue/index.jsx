@@ -12,9 +12,9 @@ const Continue = () => {
         <meta property='og:url' content='https://paepr.vercel.app/continue' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Continue To Paepr' />
-        <meta
-          property='og:description'
-          content='Start Your Paper Now, By Continuing'
+        <link
+          href='https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap'
+          rel='stylesheet'
         />
         <meta
           property='og:image'
@@ -59,7 +59,7 @@ const Continue = () => {
                       />
                     </svg>
                   </div>
-                  <h1 className='px-4 py-3 w-5/6 text-center font-bold'>
+                  <h1 className='px-4 py-3 w-5/6 text-center font-readex'>
                     Continue with Google
                   </h1>
                 </a>
@@ -111,7 +111,7 @@ const Continue = () => {
                 </Switch>
               </div>
               <div className='mt-8'>
-                <button className='bg-paper text-white shadow-lg hover:bg-white transition duration-500 ease-in-out  font-bold py-2 px-4 w-full rounded-full hover:text-paper'>
+                <button className='bg-paper text-white shadow-lg hover:bg-white transition duration-500 ease-in-out  font-readex py-2 px-4 w-full rounded-full hover:text-paper'>
                   Continue
                 </button>
               </div>

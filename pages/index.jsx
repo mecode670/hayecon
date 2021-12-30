@@ -7,10 +7,6 @@ export default function Home() {
     <>
       <Head>
         <title>Home - Paepr</title>
-        <meta
-          name='description'
-          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
-        />
         <meta property='og:url' content='https://paepr.vercel.app' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Paepr' />
@@ -35,7 +31,6 @@ export default function Home() {
           content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
         ></meta>
       </Head>
-
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-col text-center w-full mb-20'>

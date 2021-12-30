@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import paepr_big from '../public/paepr-big.png';
+import Link from 'next/link';
 export default function Home() {
   return (
     <>
@@ -23,126 +24,36 @@ export default function Home() {
         />
 
         <link href='favicon.ico' />
-        <meta name='twitter:card' content='summary'></meta>
-        <meta name='twitter:site' content='zacc_X_'></meta>
-        <meta name='twitter:title' content='Paepr'></meta>
+        <meta name='twitter:card' content='summary' />
+        <meta name='twitter:site' content='zacc_X_' />
+        <meta name='twitter:title' content='Paepr' />
         <meta
           name='twitter:description'
           content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
-        ></meta>
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'
+          rel='stylesheet'
+        />
       </Head>
-      <section className='text-gray-600 body-font'>
-        <div className='container px-5 py-24 mx-auto'>
-          <div className='flex flex-col text-center w-full mb-20'>
-            <h2 className='text-xs text-indigo-500 tracking-widest font-medium title-font mb-1'>
-              ROOF PARTY POLAROID
-            </h2>
-            <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
-              Master Cleanse Reliac Heirloom
-            </h1>
-            <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              food truck ugh squid celiac humblebrag.
-            </p>
-          </div>
-          <div className='flex flex-wrap'>
-            <div className='xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60'>
-              <h2 className='text-lg sm:text-xl text-gray-900 font-medium title-font mb-2'>
-                Shooting Stars
-              </h2>
-              <p className='leading-relaxed text-base mb-4'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
-              </p>
-              <a className='text-indigo-500 inline-flex items-center'>
-                Learn More
-                <svg
-                  fill='none'
-                  stroke='currentColor'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth={2}
-                  className='w-4 h-4 ml-2'
-                  viewBox='0 0 24 24'
-                >
-                  <path d='M5 12h14M12 5l7 7-7 7' />
-                </svg>
-              </a>
-            </div>
-            <div className='xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60'>
-              <h2 className='text-lg sm:text-xl text-gray-900 font-medium title-font mb-2'>
-                The Catalyzer
-              </h2>
-              <p className='leading-relaxed text-base mb-4'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
-              </p>
-              <a className='text-indigo-500 inline-flex items-center'>
-                Learn More
-                <svg
-                  fill='none'
-                  stroke='currentColor'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth={2}
-                  className='w-4 h-4 ml-2'
-                  viewBox='0 0 24 24'
-                >
-                  <path d='M5 12h14M12 5l7 7-7 7' />
-                </svg>
-              </a>
-            </div>
-            <div className='xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60'>
-              <h2 className='text-lg sm:text-xl text-gray-900 font-medium title-font mb-2'>
-                Neptune
-              </h2>
-              <p className='leading-relaxed text-base mb-4'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
-              </p>
-              <a className='text-indigo-500 inline-flex items-center'>
-                Learn More
-                <svg
-                  fill='none'
-                  stroke='currentColor'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth={2}
-                  className='w-4 h-4 ml-2'
-                  viewBox='0 0 24 24'
-                >
-                  <path d='M5 12h14M12 5l7 7-7 7' />
-                </svg>
-              </a>
-            </div>
-            <div className='xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60'>
-              <h2 className='text-lg sm:text-xl text-gray-900 font-medium title-font mb-2'>
-                Melanchole
-              </h2>
-              <p className='leading-relaxed text-base mb-4'>
-                Fingerstache flexitarian street art 8-bit waistcoat. Distillery
-                hexagon disrupt edison bulbche.
-              </p>
-              <a className='text-indigo-500 inline-flex items-center'>
-                Learn More
-                <svg
-                  fill='none'
-                  stroke='currentColor'
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth={2}
-                  className='w-4 h-4 ml-2'
-                  viewBox='0 0 24 24'
-                >
-                  <path d='M5 12h14M12 5l7 7-7 7' />
-                </svg>
-              </a>
+      <section className='mt-10 px-4 lg:px-8'>
+        <div className='text-center lg:text-left'>
+          <h1 className='text-4xl font-extrabold text-paper '>
+            <span>Welcome To Paepr </span>
+          </h1>
+          <p className='mt-6 text-gray-600 max-w-xl'>
+            Here you get to see all the blogs free and ad-free. blogs are really
+            helpful to some, maybe you need something, checkout our blogs.
+          </p>
+          <div className='mt-80 md:mt-8 flex justify-center lg:justify-start'>
+            <div className='rounded-2xl shadow-lg'>
+              <Link href='/blogs'>
+                <a className='flex px-10 py-4  text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>
+                  Explore Blogs
+                </a>
+              </Link>
             </div>
           </div>
-          <button className='flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-            Button
-          </button>
         </div>
       </section>
     </>

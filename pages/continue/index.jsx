@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { useState } from 'react';
 import { Switch } from '@headlessui/react';
+import Link from 'next/link';
+
 const Continue = () => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -17,6 +19,7 @@ const Continue = () => {
           property='og:image'
           content='https://res.cloudinary.com/mecode670/image/upload/v1640865597/paepr/paepr-big_ypaerg.png'
         />
+        <meta name='twitter:card' content='summary'></meta>
       </Head>
       <section>
         <div className='py-6'>
@@ -98,7 +101,7 @@ const Continue = () => {
                   onChange={setToggle}
                   className={`${
                     toggle ? 'bg-paper' : 'bg-gray-200'
-                  } relative transition duration-500 ease-in-out flex items-center h-6 left-64 rounded-full z-20 bottom-12 w-11`}
+                  } relative transition duration-500 ease-in-out flex items-center h-6 lg:left-80 left-64 rounded-full z-20 bottom-12 w-11`}
                 >
                   <span className='sr-only'>Show Password</span>
                   <span

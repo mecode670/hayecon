@@ -24,7 +24,7 @@ const Header = () => {
           rel='stylesheet'
         />
       </Head>
-      <header className='select-none sticky top-0 flex p-5 justify-between m-2 backdrop-filter backdrop-blur-lg border-b-2 border-gray-200'>
+      <header className='select-none sticky top-0 flex p-5 justify-between m-1 backdrop-filter backdrop-blur-lg border-b-2 border-gray-200'>
         <div className='md:ml-20 ml-2 flex cursor-pointer'>
           <Link href='/'>
             <a>

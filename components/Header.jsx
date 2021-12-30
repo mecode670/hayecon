@@ -18,12 +18,6 @@ const Header = () => {
   };
   return (
     <>
-      <Head>
-        <link
-          href='https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap'
-          rel='stylesheet'
-        />
-      </Head>
       <header className='select-none sticky top-0 z-20 flex p-5 justify-between m-1 backdrop-filter backdrop-blur-lg border-b-2 border-gray-200'>
         <div className='md:ml-20 ml-2 flex cursor-pointer'>
           <Link href='/'>

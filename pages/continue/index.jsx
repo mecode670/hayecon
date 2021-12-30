@@ -12,10 +12,6 @@ const Continue = () => {
         <meta property='og:url' content='https://paepr.vercel.app/continue' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Continue To Paepr' />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap'
-          rel='stylesheet'
-        />
         <meta
           property='og:image'
           content='https://res.cloudinary.com/mecode670/image/upload/v1640865597/paepr/paepr-big_ypaerg.png'

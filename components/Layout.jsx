@@ -10,6 +10,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
+        <link
+          href='https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap'
+          rel='stylesheet'
+        />
         <link rel='icon' href='favicon.ico' />
         <link rel='apple-touch-icon' href='/apple_touch_icon.png' />
         <meta

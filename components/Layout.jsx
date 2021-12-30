@@ -11,7 +11,8 @@ const Layout = ({ children }) => {
     <>
       <Head>
         <html lang='en' />
-        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+        <link rel='icon' href='favicon.ico' />
+        <link rel='apple-touch-icon' href='/apple_touch_icon.png' />
       </Head>
       <Header />
       <Sidebar />

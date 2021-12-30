@@ -19,7 +19,10 @@ export default function Home() {
         <meta property='og:image:width' content='1500' />
         <meta property='og:image:height' content='1500' />
 
-        <meta property='og:image' content={paepr_big} />
+        <meta
+          property='og:image'
+          content='https://res.cloudinary.com/mecode670/image/upload/v1640865597/paepr/paepr-big_ypaerg.png'
+        />
 
         <link href='favicon.ico' />
       </Head>

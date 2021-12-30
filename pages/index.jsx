@@ -11,6 +11,7 @@ export default function Home() {
           name='description'
           content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
         />
+
         <meta property='og:url' content='https://paepr.vercel.app' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Paepr' />

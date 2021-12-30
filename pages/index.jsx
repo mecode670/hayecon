@@ -7,17 +7,21 @@ export default function Home() {
     <>
       <Head>
         <title>Paepr - Home</title>
-        <meta name='description' content='No Paper No Life' />
+        <meta
+          name='description'
+          itemProp={'description'}
+          content='No Paper No Life'
+        />
         <meta property='og:url' content='https://paepr.vercel.app' />
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Paepr - Home' />
         <meta property='og:description' content='No Paper No Life' />
         <meta
           property='og:image'
-          content='https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
+          content='https://zs.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
         />
 
-        <link rel='icon' href='/favicon.ico' />
+        <link href='favicon.ico' />
       </Head>
 
       <section className='text-gray-600 body-font'>

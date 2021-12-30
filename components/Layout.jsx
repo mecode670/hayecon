@@ -5,7 +5,9 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <Sidebar />
-      <main>{children}</main>
+      <main itemScope itemType='https://schema.org/WebSite'>
+        {children}
+      </main>
     </>
   );
 };

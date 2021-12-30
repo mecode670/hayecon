@@ -20,9 +20,12 @@ const Sidebar = (props) => {
           }`}
         >
           <ul className={'flex  mt-20 flex-col items-center'}>
-            <Link href='/contact'>
+            <Link href='/contact' itemScope itemType='https://schema.org/URL'>
               <a>
-                <button className='cursor-pointer backdrop-filter backdrop-blur-lg bg-opacity-30 bg-white mt-6 border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-200 hover:bg-paper hover:text-white'>
+                <button
+                  itemProp='url'
+                  className='cursor-pointer backdrop-filter backdrop-blur-lg bg-opacity-30 bg-white mt-6 border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-200 hover:bg-paper hover:text-white'
+                >
                   Contact
                 </button>
               </a>

@@ -28,18 +28,17 @@ const Header = () => {
         <div className='md:ml-20 ml-2 flex cursor-pointer'>
           <Link href='/'>
             <a>
-              <Image
-                src='/vercel-icon-dark.svg'
-                height={size}
-                width={size}
-                alt='icon'
-              />
+              <Image src='/paepr.svg' height={size} width={size} alt='logo' />
             </a>
           </Link>
         </div>
-        <nav className='flex mr-5 transition duration-300 '>
+        <nav
+          itemScope
+          itemType='https://schema.org/SiteNavigationElement'
+          className='flex mr-5 transition duration-300 '
+        >
           <div className='flex gap-5'>
-            <Link href='/continue'>
+            <Link href='/continue' itemProp='url'>
               <a>
                 <button className='cursor-pointer bg-white border-2 border-black rounded-paper p-3 font-readex transition ease-in-out duration-500 hover:bg-paper hover:text-white  '>
                   Continue

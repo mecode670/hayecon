@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-
+import paepr_big from '../public/paepr-big.png';
 export default function Home() {
   return (
     <>
@@ -16,10 +16,10 @@ export default function Home() {
         <meta property='og:type' content='article' />
         <meta property='og:title' content='Paepr - Home' />
         <meta property='og:description' content='No Paper No Life' />
-        <meta
-          property='og:image'
-          content='https://zs.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'
-        />
+        <meta property='og:image:width' content='1500' />
+        <meta property='og:image:height' content='1500' />
+
+        <meta property='og:image' content={paepr_big} />
 
         <link href='favicon.ico' />
       </Head>

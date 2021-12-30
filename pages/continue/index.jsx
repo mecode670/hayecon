@@ -85,7 +85,10 @@ const index = () => {
                   <label className='block text-gray-700 text-sm font-bold mb-2'>
                     Password
                   </label>
-                  <a href='#' className='text-xs text-gray-500'>
+                  <a
+                    href='#'
+                    className='text-xs text-gray-500 hover:text-paper'
+                  >
                     Forget Password?
                   </a>
                 </div>

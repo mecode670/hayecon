@@ -12,7 +12,7 @@ const Sidebar = (props) => {
       <div
         className={`${
           isShow ? 'visible' : 'hidden'
-        } flex fixed w-full items-center justify-between px-6 h-16 text-gray-700 z-10`}
+        } flex fixed w-full items-center justify-between px-6 h-16 text-gray-700 z-30`}
       >
         <aside
           className={`transform top-60 bg-opacity-30 left-14 w-64 rounded-3xl fixed h-64 overflow-auto ease-in-out transition-all duration-1000 backdrop-filter backdrop-blur-lg bg-gray-400 z-30 ${

@@ -19,7 +19,7 @@ export default function Home() {
 
         <meta
           property='og:image'
-          content='https://res.cloudinary.com/mecode670/image/upload/v1640865597/paepr/paepr-big_ypaerg.png'
+          content='https://res.cloudinary.com/mecode670/image/upload/v1640970759/paepr/logo_paepr_2_qvx7y7.png'
         />
 
         <link href='favicon.ico' />

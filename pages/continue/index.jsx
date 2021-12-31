@@ -67,7 +67,7 @@ const Continue = () => {
                     <Image src='/facebook.svg' height={'36px'} width={'36px'} />
                   </div>
                   <h1 className=' select-none px-4 py-3 w-5/6 text-center font-readex'>
-                    Continue with Google
+                    Continue with Facebook
                   </h1>
                 </a>
               </Link>

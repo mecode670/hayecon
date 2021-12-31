@@ -76,6 +76,7 @@ const Continue = () => {
                 <input
                   className='bg-white text-paper focus:outline-none focus:shadow-outline border border-paper rounded-2xl py-2 px-4 block w-full appearance-none'
                   type='email'
+                  aria-label='input email'
                 />
               </div>
               <div className='mt-4'>
@@ -92,6 +93,7 @@ const Continue = () => {
                 <input
                   className='bg-white mb-4 text-paper focus:outline-none focus:shadow-outline border border-paper rounded-2xl py-2 px-4 block w-full appearance-none z-10'
                   type='password'
+                  aria-label='Input Password'
                 />
                 <Switch
                   checked={toggle}

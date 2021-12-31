@@ -30,10 +30,6 @@ export default function Home() {
           name='twitter:description'
           content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
         />
-        <link
-          href='https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'
-          rel='stylesheet'
-        />
       </Head>
       <section className='mt-32 px-4 lg:px-8'>
         <div className='text-center lg:text-left'>

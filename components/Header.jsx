@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState, useContext } from 'react';
 import Sidebar from './Sidebar';
 import contextCreate from '../context/contextCreate.js';
+import Dropdown from './Dropdown';
 
 const Header = () => {
   const context = useContext(contextCreate);
@@ -16,6 +17,7 @@ const Header = () => {
   const onClickf9eh424 = () => {
     setIsShow(!isShow);
   };
+
   return (
     <>
       <header className='select-none sticky top-0 z-20 flex p-5 justify-between m-1 backdrop-filter backdrop-blur-lg border-b-2 border-gray-200'>
@@ -39,6 +41,9 @@ const Header = () => {
                 </button>
               </a>
             </Link>
+            <div className={windowWidth > 500 ? 'flex' : 'hidden'}>
+              <Dropdown />
+            </div>
             <button
               onClick={onClickf9eh424}
               className={`${
@@ -61,7 +66,8 @@ const Header = () => {
                 />
               </svg>
             </button>
-            <button
+            {/* <button
+              onClick={onClickn25f32d}
               className={`${
                 windowWidth > 500 ? 'visible' : 'hidden'
               } flex mt-4`}
@@ -81,7 +87,7 @@ const Header = () => {
                   d='M19 9l-7 7-7-7'
                 />
               </svg>
-            </button>
+            </button> */}
           </div>
         </nav>
       </header>

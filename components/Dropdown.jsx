@@ -9,7 +9,7 @@ export default function MyDropdown() {
     <Menu as='div' className={`relative inline-block text-left `}>
       <div>
         <Menu.Button className=' rounded-2xl mt-3'>
-          <ChevronDownIcon className='h-5 w-5' aria-hidden='true' />
+          <ChevronDownIcon className='h-5 w-5' aria-label='more' />
         </Menu.Button>
       </div>
 

@@ -22,7 +22,7 @@ export default function MyDropdown() {
         leaveFrom='transform opacity-100 scale-100'
         leaveTo='transform opacity-0 scale-95'
       >
-        <Menu.Items className='absolute right-0 mt-8 w-52  rounded-2xl shadow-xl bg-white hover:bg-paper divide-y divide-gray-200 transition duration-500 ease-in-out'>
+        <Menu.Items className='absolute right-0 mt-8 w-52  rounded-2xl shadow-xl bg-white divide-y divide-gray-200 transition duration-500 ease-in-out'>
           <div className='py-1'>
             <Menu.Item>
               {({ active }) => (
@@ -36,7 +36,7 @@ export default function MyDropdown() {
                        : 'text-paper hover:text-white'
                    }
                    transition duration-500 ease-in-out
-                    block px-4 py-2 text-sm 
+                    block px-4 py-2 text-sm  rounded-2xl bg-white hover:bg-paper
                   font-montserrat
                   `}
                   >

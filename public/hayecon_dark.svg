@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1128" height="191" viewBox="0 0 1128 191" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs><style id="8f41ce56-f535-4801-aa0e-c20c83eaca10" data-type="fontFaceStyle">/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+/* vietnamese */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiLdA4M5.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+fontdisplay: swap; }
+/* latin-ext */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeaiPdA4M5.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+fontdisplay: swap; }
+/* latin */
+@font-face {
+  font-family: 'Lexend Exa';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexendexa/v20/UMBXrPdOoHOnxExyjdBeai3dAw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+fontdisplay: swap; }
+</style>
+
+</defs>
+<g transform="matrix(1 0 0 1 564 95.5)" id="workarea"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-564" y="-95.5" rx="0" ry="0" width="1128" height="191" />
+</g>
+<g transform="matrix(1 0 0 1 566.7215833644907 90.89999999999993)" style="" id="c3237411-e205-4be5-928c-6e7e4ed75b5b"  >
+		<text xml:space="preserve" font-family="Lexend Exa" font-size="160" font-style="normal" font-weight="400" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-411.8" y="50.2624" style="font-size: 160px; ">hayecon</tspan></text>
+</g>
+</svg>

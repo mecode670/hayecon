@@ -8,6 +8,8 @@ module.exports = {
       fontFamily: {
         montserrat: 'Montserrat',
         readex: 'Readex Pro',
+        exa: 'Lexend Exa',
+        giga: 'Lexend Giga',
       },
       colors: {
         'border-paper': '#ffffff2e',

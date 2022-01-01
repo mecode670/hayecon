@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <link rel='apple-touch-icon' href='/apple_touch_icon.png' />
         <meta
           name='description'
-          content='Join papergang with paepr. enjoy with the world, share it with others. Be Happy Like You Are'
+          content='Hey from hayecon, join us because we never gonna give you up, never gonna let you down and desert you  '
         />
       </Head>
       <Header />

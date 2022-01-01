@@ -1,14 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { useEffect, useState } from 'react';
-
 import Link from 'next/link';
 export default function Home() {
-  const [windowWidth, setWindowWidth] = useState(null);
-  useEffect(() => {
-    setWindowWidth(screen.width);
-  }, []);
   return (
     <>
       <Head>
@@ -41,29 +35,20 @@ export default function Home() {
           content='Hey from hayecon, join us because we never gonna give you up, never gonna let you down and desert you'
         />
       </Head>
-      <section className='mt-32 px-4 lg:px-8'>
+      <section className='mt-32 px-4 lg:px-8 flex justify-center'>
         <div className='text-center lg:text-left'>
-          {windowWidth > 1200 ? (
-            <>
-              <h1 className='font-giga text-4xl text-paper'>
-                <span className={'font-sans mr-2'}>Welcome to</span>
-                <span className={'font-giga'}>Hayecon</span>
-              </h1>
-              <p className='mt-6 text-gray-600 max-w-xl'>
-                Here you get to see all the blogs free and ad-free. blogs are
-                really helpful to some, maybe you need something, checkout our
-                blogs.
-              </p>
-            </>
-          ) : (
-            <h1 className='relative top-32 md:top-10  md:mb-56 lg:mb-0 font-giga text-4xl text-paper'>
-              Hayecon
-            </h1>
-          )}
-          <div className='mt-96 md:mt-8 flex justify-center lg:justify-start'>
+          <h1 className='text-4xl mb-5 text-paper'>
+            <span className={'font-mono'}>Welcome To </span>
+            <span className={'font-giga relative top-3 md:top-0'}>Hayecon</span>
+          </h1>
+          <p className='mt-6 text-gray-600 max-w-xl'>
+            Here you get to see all the blogs free and ad-free. blogs are really
+            helpful to some, maybe you need something, checkout our blogs.
+          </p>
+          <div className='mt-52 md:mt-8 flex justify-center lg:justify-start'>
             <div className='rounded-2xl shadow-lg'>
               <Link href='/blogs'>
-                <a className='flex px-10 py-4 text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>
+                <a className='flex px-10 py-4  text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>
                   Explore Blogs
                 </a>
               </Link>

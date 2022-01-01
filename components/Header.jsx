@@ -42,22 +42,29 @@ const Header = () => {
                 </button>
               </a>
             </Link>
-            <div className={windowWidth > 500 ? 'flex' : 'hidden'}>
-              <Dropdown />
-            </div>
-            <button
-              onClick={onClickf9eh424}
-              className={`${
-                windowWidth > 500 ? 'hidden' : 'visible'
-              } flex mt-4`}
-              aria-label='Navigation bar full screen'
-            >
-              {isShow ? (
-                <XIcon className={'h-5 w-5'} />
-              ) : (
-                <MenuAlt3Icon className={'h-5 w-5'} />
-              )}
-            </button>
+            {windowWidth > 500 ? (
+              <div>
+                <Dropdown />
+              </div>
+            ) : (
+              ''
+            )}
+
+            {windowWidth > 500 ? (
+              ''
+            ) : (
+              <button
+                onClick={onClickf9eh424}
+                className={'flex mt-4'}
+                aria-label='Navigation bar full screen'
+              >
+                {isShow ? (
+                  <XIcon className={'h-5 w-5'} />
+                ) : (
+                  <MenuAlt3Icon className={'h-5 w-5'} />
+                )}
+              </button>
+            )}
           </div>
         </nav>
       </header>

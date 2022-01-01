@@ -42,13 +42,7 @@ const Header = () => {
                 </button>
               </a>
             </Link>
-            {windowWidth > 500 ? (
-              <div>
-                <Dropdown />
-              </div>
-            ) : (
-              ''
-            )}
+            {windowWidth > 500 ? <Dropdown /> : ''}
 
             {windowWidth > 500 ? (
               ''

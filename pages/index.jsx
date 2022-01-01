@@ -35,7 +35,7 @@ export default function Home() {
           content='Hey from hayecon, join us because we never gonna give you up, never gonna let you down and desert you'
         />
       </Head>
-      <section className='mt-32 px-4 lg:px-8 flex justify-center'>
+      <section className='mt-32 px-4 lg:px-8 flex justify-center lg:justify-start'>
         <div className='text-center lg:text-left'>
           <h1 className='text-4xl mb-5 text-paper'>
             <span className={'font-mono'}>Welcome To </span>

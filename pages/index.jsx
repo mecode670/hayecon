@@ -45,7 +45,7 @@ export default function Home() {
             Here you get to see all the blogs free and ad-free. blogs are really
             helpful to some, maybe you need something, checkout our blogs.
           </p>
-          <div className='mt-52 md:mt-8 flex justify-center lg:justify-start'>
+          <div className='mt-52 md:mt-80 lg:mt-8 flex justify-center lg:justify-start'>
             <div className='rounded-2xl shadow-lg'>
               <Link href='/blogs'>
                 <a className='flex px-10 py-4  text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>

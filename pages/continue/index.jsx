@@ -19,7 +19,7 @@ const Continue = () => {
         />
         <meta name='twitter:card' content='summary'></meta>
       </Head>
-      <section>
+      <section className={'overflow-hidden'}>
         <div className='py-6'>
           <div className='flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl'>
             <div

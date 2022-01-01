@@ -28,10 +28,10 @@ const Header = () => {
         />
       </Head>
       <header className='select-none sticky top-0 z-20 flex p-5 justify-between m-1 backdrop-filter backdrop-blur-lg border-b-2 border-gray-200'>
-        <div className='md:ml-20 ml-2 flex cursor-pointer'>
+        <div className='md:ml-20 ml-2 flex cursor-pointer mt-3'>
           <Link href='/'>
             <a>
-              <span className='font-exa'>hayecon</span>
+              <span className='font-exa text-xl'>hayecon</span>
             </a>
           </Link>
         </div>

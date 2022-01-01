@@ -43,7 +43,7 @@ export default function Home() {
       </Head>
       <section className='mt-32 px-4 lg:px-8'>
         <div className='text-center lg:text-left'>
-          {windowWidth > 500 ? (
+          {windowWidth > 1200 ? (
             <>
               <h1 className='font-giga text-4xl text-paper'>
                 <span className={'font-sans mr-2'}>Welcome to</span>
@@ -56,14 +56,14 @@ export default function Home() {
               </p>
             </>
           ) : (
-            <h1 className='relative top-20 font-giga text-4xl text-paper'>
+            <h1 className='relative top-32 md:top-10  md:mb-56 lg:mb-0 font-giga text-4xl text-paper'>
               Hayecon
             </h1>
           )}
           <div className='mt-96 md:mt-8 flex justify-center lg:justify-start'>
             <div className='rounded-2xl shadow-lg'>
               <Link href='/blogs'>
-                <a className='flex px-10 py-4  text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>
+                <a className='flex px-10 py-4 text-base font-medium rounded-2xl text-white bg-paper hover:bg-white shadow-lg hover:text-paper transition duration-500 md:text-lg'>
                   Explore Blogs
                 </a>
               </Link>

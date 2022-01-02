@@ -48,10 +48,8 @@ const Header = () => {
                 </button>
               </a>
             </Link>
-            {windowWidth > 500 ? <Dropdown /> : ''}
-
             {windowWidth > 500 ? (
-              ''
+              <Dropdown />
             ) : (
               <button
                 onClick={onClickf9eh424}

@@ -39,6 +39,7 @@ export default function Home() {
         <div className='text-center lg:text-left'>
           <h1 className='text-4xl mb-5 text-paper'>
             <span className={'font-mono'}>Welcome To </span>
+            <br />
             <span className={'font-giga relative top-3 md:top-0'}>Hayecon</span>
           </h1>
           <p className='mt-6 text-gray-600 max-w-xl'>
